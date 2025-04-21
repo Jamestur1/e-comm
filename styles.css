@@ -270,7 +270,6 @@ Highlights
 
 .highlight__wrapper {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .highlight {
@@ -439,11 +438,18 @@ footer {
    .btn__menu {
     display: block;
    }
+
    .highlight {
     width: 100%;
    }
+        
+   
    .highlight:not(:last-child) {
     margin-bottom: 24px;
+   }
+
+   .highlight__wrapper {
+    flex-direction: column;
    }
 
 }
